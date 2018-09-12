@@ -59,6 +59,20 @@ body {
   margin-top: 28px;
 }
 
+.indicators-container {
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #bfbfbf;
+  opacity: 0.8;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
